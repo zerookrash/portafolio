@@ -29,7 +29,6 @@ export class InfoPaginaService {
       .subscribe( (res: any[]) => {
         this.cagada = true;
         this.equipo = res;
-        console.log(res);
       });
      }
   }
