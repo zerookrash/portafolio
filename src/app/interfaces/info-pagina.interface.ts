@@ -1,4 +1,5 @@
 export interface InfoPagina {
+    titulo?: string;
     twitter?: string;
     email?: string;
     nombre_corto?: string;
